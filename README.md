@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 * Debian (>= 7) / Ubuntu (>= 14.04)
 ```
-sudo apt-get install build-essential gfortran libatlas-base-dev liblapacke-dev python3-dev
+sudo apt-get install build-essential gfortran liblapacke-dev libopenblas-dev python3-dev
 ```
 
 * macOS
