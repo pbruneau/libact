@@ -25,7 +25,7 @@ else:
     else:
         # assume linux otherwise, unless we support Windows in the future...
         print("Platform Detection: Linux. Link to liblapacke...")
-        extra_link_args = ['-L/usr/lib -lopenblas']
+        extra_link_args = ['-lopenblas']
         include_dirs = (numpy.distutils.misc_util.get_numpy_include_dirs() +
                         ['/usr/include/openblas'])
 
